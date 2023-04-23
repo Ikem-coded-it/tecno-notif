@@ -269,3 +269,54 @@ img {
 .music-section>.music-controls {
     height: 30%;
 }
+
+.music-desc>.music-scroll-bar {
+    margin-top: 10px;
+    background-color: #161515aa;
+    position: relative;
+}
+
+.music-scroll-bar > .scroll-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161515aa;
+}
+
+.scroll-bar div {
+    height: 4px;
+}
+
+.scroll-bar>.played {
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.scroll-bar>.playing {
+    height: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 5%;
+}
+
+.scroll-bar>.unplayed {
+    border-radius: 5px;
+    width: 60%;
+    background-color: var(--inactive-switch-color);
+}
+
+.music-scroll-bar>.playing-time {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    background-color: #161515aa;
+}
+
+.playing-time div {
+    width: fit-content;
+    background-color: #161515aa;
+}
