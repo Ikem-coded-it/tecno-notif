@@ -266,10 +266,6 @@ img {
     border-radius: 50%;
 }
 
-.music-section>.music-controls {
-    height: 30%;
-}
-
 .music-desc>.music-scroll-bar {
     margin-top: 10px;
     background-color: #161515aa;
@@ -319,4 +315,38 @@ img {
 .playing-time div {
     width: fit-content;
     background-color: #161515aa;
+}
+
+.music-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161515aa;
+    height: 40%;
+    position: relative;
+    bottom: 25px;
+}
+
+.music-controls>.download-btn {
+    border-color: #919090aa;
+}
+
+.music-controls div {
+    width: fit-content;
+    height: fit-content;
+    background-color: #161515aa;
+}
+
+.music-controls i {
+    font-size: 40px;
+}
+
+.download-btn {
+    border: 2px solid rgb(80, 90, 78);
+    color:rgb(80, 90, 78);
+}
+
+.like-btn {
+    border: 2px solid rgb(80, 90, 78);
+    color: rgb(80, 90, 78);
 }
