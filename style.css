@@ -350,3 +350,63 @@ img {
     border: 2px solid rgb(80, 90, 78);
     color: rgb(80, 90, 78);
 }
+
+.brightness {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.brightness-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.brightness-control>.less-bright {
+    width: 70%;
+    height: 4px;
+    background-color: var(--active-switch-color);
+}
+
+.brightness-control>.current-bright {
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--active-switch-color);
+}
+
+.brightness-control>.more-bright {
+    width: 25%;
+    height: 4px;
+    background-color: whitesmoke;
+}
+
+.brightness-control i {
+    margin: 5px;
+}
+
+.section-3 {
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.clear-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.fa-trash {
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(80, 90, 78);
+}
