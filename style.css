@@ -313,6 +313,7 @@ img {
 }
 
 .playing-time div {
+    z-index: 1;
     width: fit-content;
     background-color: #161515aa;
 }
@@ -400,6 +401,46 @@ img {
     gap: 10px;
 }
 
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-twitter {
+    color: lightskyblue;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: pink
+}
+
+.fa-google {
+    color: red;
+}
+
+.fa-google-play {
+    color: greenyellow;
+}
+
+.fa-envelope {
+    color:rgb(0, 60, 255);
+}
+
+.fa-figma {
+    color: purple;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-google-drive {
+    color: blue;
+}
+
 .clear-btn-container {
     display: flex;
     align-items: center;
@@ -409,4 +450,21 @@ img {
     margin-left: 10px;
     font-size: 30px;
     color: rgb(80, 90, 78);
+}
+
+.trigger-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    font-size: 20px;
+    width: 200px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 100px;
 }
