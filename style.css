@@ -54,10 +54,12 @@ body {
 }
 
 .section-2 {
+    /* border: 1px solid white; */
     height: 70%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    transition: height 1s ease-in-out;
 }
 
 .section-3 {
@@ -152,6 +154,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px 10px 5px 10px;
     gap: 10px;
+    position: relative;
 }
 
 .switches > div {
@@ -171,6 +174,13 @@ body {
     height: 90%;
     width: 60%;
     background-color: var(--active-switch-color);
+}
+
+#wifi-circle,
+#plane-circle,
+#bluetooth-circle,
+#bell-circle {
+    height: 80px;
 }
 
 #wifi-circle,
@@ -467,4 +477,31 @@ button {
     font-weight: bold;
     border-radius: 5px;
     margin-right: 100px;
+}
+
+/* ANIMATION STYLES */
+
+.section-2-animate {
+    height: 35%;
+}
+
+.bell-animate {
+    animation: diagonal-move 1s ease-in-out forwards; 
+}
+
+.eye-animate {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.sim-animate {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes diagonal-move {
+    100% {
+        transform: translateX(200%);
+        /* transform: translateY(50%); */
+    }
 }
